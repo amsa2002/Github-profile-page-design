@@ -1,6 +1,7 @@
 .gitBody{
     margin-top: 40px;
 }
+
 .nav-container{
     background-color: #2f3d46 !important;
 }
@@ -40,6 +41,7 @@ a i{
     width:210px !important;
     border-radius: 20px;
 }
+
 .side-content{
     margin-left: 40px !important;
     text-align: center;
@@ -67,4 +69,47 @@ a i{
     margin-top: 47px !important;
     margin: 0px auto;
 
+}
+
+@media (min-width: 320px) and (max-width:768px) {
+    .sidebar {
+        width: 210px !important;
+        margin: 0px auto;
+    }
+
+    .side-content {
+        margin-left: 20px !important;
+    }
+    .container, .container-sm {
+        max-width: 100%;
+    }
+    .bg-color{
+        height: 100%;
+    }
+    .side-content{
+        text-align: left;
+        margin-left: 0px;
+    }
+    .side-content button {
+
+        width:90%;
+        margin:30px 0px;
+    }
+    .row {
+        flex-shrink: 0;
+        width: 100%;
+        max-width: 100%;
+        padding-right: calc(var(--bs-gutter-x) * .5);
+        padding-left: calc(var(--bs-gutter-x) * .5);
+        margin-top: var(--bs-gutter-y);
+        margin: 0px auto;
+    }
+    .content {
+        margin: 30px 0px;
+    }
+
+    .bor-siz {
+    margin-top: 0px !important;
+    margin: 0px auto;
+    }
 }
